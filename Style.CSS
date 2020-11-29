@@ -1,17 +1,8 @@
 /* Style.css */ 
 
-*{ 
-	box-sizing: border-box;
- }
-
-.column{  
-	float: left; 
-	width: 33.33%
-	padding:5px;
+class col-4{
+	max-width: 50px; 
+	max-height: 50px;
 }
 
-.row::after {
-	content:"";
-	display: table;
-	clear: both;
-}
+
