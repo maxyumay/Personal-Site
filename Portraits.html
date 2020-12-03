@@ -20,14 +20,20 @@
 <link href="Style.CSS" rel="stylesheet" type="text/css">-->
 <!-- Font change to the document -->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Fonts Setup -->
 <style>
-html, body, h1, h2, h3, h4, h5, h6, {
-  font-family: "Optima, sans-serif";
-}
+  html, body, b, .navbar-brand, .nav-link{
+    font-family: Courier;
+  }
+  h1 { 
+  font-family: Courier;
+  size: 150%;
+   }
 </style>
+
 <!-- Image centering -->
 <style type = "text/css"> 
-  img{
+  .img-fluid{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -44,7 +50,7 @@ html, body, h1, h2, h3, h4, h5, h6, {
 <body> 
 <!-- Navigation Bar-->
 <nav class="navbar navbar-expand-md navbar-light bg-light">
-  <a class="navbar-brand" style= "font-size:200%;" href="index.html" class="font-weight-bold">Max Yoshida</a>
+  <a class="navbar-brand" style= "font-size:200%;" href="index.html" class="font-weight-bold"><h1>Max Yoshida</h1></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -136,22 +142,42 @@ html, body, h1, h2, h3, h4, h5, h6, {
     </div>
   </div>
 </div>
+
+
 <!-- Footer --> 
 <style>
   .footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    padding-top: 50px; 
+    padding-bottom: 50px;
     text-align: center;
   }
 </style>
 
+<style> 
+  .contacts{ 
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+</style>
+
 <div class="footer">
-   <p style="font-size:100%">
-    Email: Maxyumay@gmail.com 
-      <br> Phone: 503-449-8174
-      <br> Instagram: @photosbyyosh
-   </p>
+   <a href="https://www.linkedin.com/in/max-yoshida/" target="_blank">
+    <img class="contacts" src="Homescreen/linkedin.svg">
+  </a>
+  <a href="https://www.facebook.com/max.yoshida.7/" target="_blank">
+    <img class="contacts" src="Homescreen/facebook.svg">
+  </a>
+  <a href="https://www.instagram.com/photosbyyosh/" target="_blank">
+    <img class="contacts" src="Homescreen/instagram.svg">
+  </a>
+  <a href="mailto:maxyumay@gmail.com" target="_blank">
+    <img class="contacts" src="Homescreen/envelope.svg" >
+  </a>
 </div>
 </body>
 </html> 

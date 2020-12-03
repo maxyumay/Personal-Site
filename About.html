@@ -20,9 +20,17 @@
 <link href="Style.CSS" rel="stylesheet" type="text/css">-->
 <!-- Font change to the document -->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Fonts Setup -->
 <style>
-html, body, h1, h2, h3, h4, h5, h6, {
-  font-family: "Optima, sans-serif";
+  html, body, b, .navbar-brand, .nav-link{
+    font-family: Courier;
+  }
+  h1 { 
+  font-family: Courier;
+  size: 150%;
+   }
+div{
+  display: block;
 }
 </style>
 <!-- Title -->
@@ -58,20 +66,42 @@ html, body, h1, h2, h3, h4, h5, h6, {
   </div>
 </nav>
 
- <!-- Header -->
-    <style> 
-      .header {
-        font-size:175%; 
-        text-align: center;}
-    </style>
- 
-<ins> 
-  <h1>
-    <div class="header">
-      About
+ <!-- About Me  -->
+ <!-- Properties for the container -->
+ <style>
+  .container-fluid{
+    padding-right: : 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+</style>
+
+<div class = "container-fluid"> 
+  <div class = "row" style = "border:none; background:white; margin-top:100px; margin-right:-15px; margin-left:-15px;"> 
+    <div class= "col-xl-1 col-lg-1 col-sm-3 col-xs-3">
     </div>
-  </h1>
-</ins>
+        <div class= "col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-1"> 
+          <img class="img-fluid center-block" src= "Portraits/Profile.jpg" style="border-radius: 50%; " alt = "Profile Picture" id = "profile">
+        </div>
+        <div class= "col-xl-1 col-lg-1 col-md-3 col-sm-3 col-xs-3">
+        </div>
+        <div class = "col-xl-4 col-lg-5 col-md-8-offset-2 col-sm-8-offset-2 col-xs-8-offset-2"> 
+          <h1 style="text-align: center; margin-top: 30px;">
+          About Me 
+          </h1> 
+          <hr> 
+            <p> Based in Tempe, AZ but a PNW native at heart. Born and raised in Portland, OR and a 2019 University of Washington graduate (Go Dawgs!).
+              <br> 
+              <br>
+              Currently a full-time engineer for Intel who enjoys taking/editing photos as a hobby.
+              <br>
+              <br>
+              Always looking for opportunities to grow as a photographer and to expand my portfolio. Would love to connect and collaborate with like-minded photographers, videographers, and graphic designers. 
+            </p>
+       </div>
+  </div>
+</div>
 
 <!-- Footer --> 
 <style>
@@ -79,16 +109,34 @@ html, body, h1, h2, h3, h4, h5, h6, {
     left: 0;
     bottom: 0;
     width: 100%;
+    padding-top: 50px; 
+    padding-bottom: 50px;
     text-align: center;
   }
 </style>
 
+<style> 
+  .contacts{ 
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+</style>
+
 <div class="footer">
-   <p style="font-size:100%">
-    Email: Maxyumay@gmail.com 
-      <br> Phone: 503-449-8174
-      <br> Instagram: @photosbyyosh
-   </p>
+   <a href="https://www.linkedin.com/in/max-yoshida/" target="_blank">
+    <img class="contacts" src="Homescreen/linkedin.svg">
+  </a>
+  <a href="https://www.facebook.com/max.yoshida.7/" target="_blank">
+    <img class="contacts" src="Homescreen/facebook.svg">
+  </a>
+  <a href="https://www.instagram.com/photosbyyosh/" target="_blank">
+    <img class="contacts" src="Homescreen/instagram.svg">
+  </a>
+  <a href="mailto:maxyumay@gmail.com" target="_blank">
+    <img class="contacts" src="Homescreen/envelope.svg" >
+  </a>
 </div>
 </body>
 </html> 
