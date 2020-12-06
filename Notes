@@ -1,0 +1,54 @@
+cgGitBash Notes 
+
+Git Status: Gives you the status of the local
+Git add . - Adds everything at once to the git hub 
+Git add "file name" - Alternatively, you can add one file at a time to the git hub
+
+git commit -m "#filename"
+
+git push -u origin master
+
+cd - Command 
+cd Desktop - Goes to Desktop 
+cd maxyumay.github.io - Goes to my repo local file 
+
+ls - Lists files in the directory 
+ls - l - Lists the files in a vertical format
+
+ctrl +l will clear the screen 
+
+esc -> :x! -> enter
+
+
+// Random terminal tip #1
+
+//You'll see this message if you git commit without a message (-m)
+// You can get out of it with two steps:
+// 1.a. Type a multi-line message to move foward with the commit.
+// 1.b. Leave blank to abort the commit.
+// 2. Hit "esc" then type ":wq" and hit enter to save your choice. Viola!
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#       modified:   README.md
+#
+# Untracked files:
+#       README.sublime-workspace
+
+
+
+git config – Configure Git
+git init – Initialize Git repository
+git status – Check the status of a Git repository
+git add – Track files
+git commit – Commit tracked files
+git push – Upload files
+git pull – Download files
+git log - see the recent commits log
+git reset --soft - Soft reset to the given commit
+git reset --hard - Hard reset to the given commit

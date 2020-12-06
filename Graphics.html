@@ -27,9 +27,21 @@
   }
   h1 { 
   font-family: Courier;
-  size: 150%;
    }
 </style>
+
+<!-- Image centering -->
+<style type = "text/css"> 
+  .img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+</style>
+
 <!-- Title -->
 <title> Max Yoshida</title> 
 </head>
@@ -38,35 +50,35 @@
 <body> 
 <!-- Navigation Bar-->
 <nav class="navbar navbar-expand-md navbar-light bg-light">
-  <a class="navbar-brand" style= "font-size:200%;" href="index.html" class="font-weight-bold">Max Yoshida</a>
+  <a class="navbar-brand" style= "font-size:200%;" href="index.html" class="font-weight-bold"><h1>Max Yoshida</h1></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-   <li class="nav-item">
-        <a class="nav-link" style= "font-size:125%;" href="Portraits.html">Portraits</a>
-      </li>
-   </li>
       <li class="nav-item">
-        <a class="nav-link" style= "font-size:125%;" href="Landscapes.html">Landscapes</a>
-      </li>  
-  </li>
+          <a class="nav-link" style= "font-size:125%;" href="Portraits.html">Portraits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style= "font-size:125%;" href="Landscapes.html">Landscapes</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" style= "font-size:125%;" href="Products.html">Products</a>
+        </li>
       <li class="nav-item">
-        <a class="nav-link"style= "font-size:125%;" href="Graphics.html">Graphics</a>
-      </li>
-       </li>
-  <li class="nav-item">
-        <a class="nav-link" style= "font-size:125%;" href="About.html">About</a>
-      </li>
+          <a class="nav-link"style= "font-size:125%;" href="Graphics.html">Graphics</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link" style= "font-size:125%;" href="About.html">About</a>
+        </li>
   </div>
 </nav>
 
  <!-- Header -->
     <style> 
       .header {
-        font-size:175%; 
+        font-size:125%; 
         text-align: center;}
     </style>
  
@@ -77,6 +89,25 @@
     </div>
   </h1>
 </ins>
+
+<!-- Body Images -->
+<div class="container-fluid">
+  <div class="row">
+    <!-- UW edit 1  -->
+   <div class="col-12">
+      <img src="Graphics/UW Edit 2.jpg" alt=""class="img-fluid" >
+     </div>
+    <!-- Seattle Seahawks-->
+    <div class="col-12">
+      <img src="Graphics/Seattle Seahawks.jpg" alt ="" class="img-fluid"  >
+    </div>
+    <!-- UW Edit 2 -->
+    <div class="col-12">
+      <img src="Graphics/Team Edit.jpg" alt =""class="img-fluid" >
+    </div>
+  </div>
+</div>
+
 
 <!-- Footer --> 
 <style>
