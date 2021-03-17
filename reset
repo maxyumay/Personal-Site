@@ -1,0 +1,84 @@
+[33mcommit 0ffac17f87b081a36f383b49d4afe3f180c86226[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Tue Mar 16 18:00:52 2021 -0700
+
+    compressed images and added sports images
+
+[33mcommit 3d4673bfa9fd38dee63c56055484a04ec35e2967[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: b912829 92fd34b
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Sat Dec 5 19:39:25 2020 -0700
+
+    Merge branch 'main' of https://github.com/maxyumay/maxyumay.github.io into main
+
+[33mcommit b912829e88e18c57bca7d479be3e53d658817bbf[m
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Sat Dec 5 19:06:20 2020 -0700
+
+    First full rev of the website
+
+[33mcommit 92fd34bdeb1bb687a32afbc8cef03b1c5731c792[m
+Author: maxyumay <75178978+maxyumay@users.noreply.github.com>
+Date:   Sat Dec 5 19:02:06 2020 -0700
+
+    Create CNAME
+
+[33mcommit b303286c1a0c89169062b8d89ae0372cefc98ac1[m
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Wed Dec 2 22:22:53 2020 -0700
+
+    Changed footer and fixed mobile size for home screen
+
+[33mcommit 97868dd21cd78b4576e62d306e0660f724889924[m
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Sun Nov 29 12:12:47 2020 -0700
+
+    Lanscapes tab complete
+
+[33mcommit a1c69acd814d4303950e769a4f2f58a910ffdab8[m
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Sun Nov 29 11:51:17 2020 -0700
+
+    Navbar and portraits tab set up
+
+[33mcommit 67e95714e4cc31a6f2c280ee598d0588483ed7e0[m
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Sat Nov 28 18:06:03 2020 -0700
+
+    Image change
+
+[33mcommit f00d8c0db9df24dcca1acbaf455b504dd2ec62a2[m
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Sat Nov 28 17:25:24 2020 -0700
+
+    Changes to images
+
+[33mcommit fefd7ab201770c0ee85818b0b2869f61249075b6[m
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Sat Nov 28 17:07:54 2020 -0700
+
+    git pgit
+
+[33mcommit b2cf9a0a030c66bd80bbda0697501a3b2c4960cb[m
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Sat Nov 28 14:55:53 2020 -0700
+
+    Added Home Screen
+
+[33mcommit 08a43d4addb79b6b811d75574e8d31ef3c38c428[m
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Sat Nov 28 11:46:58 2020 -0700
+
+    Added site descriptio
+
+[33mcommit 0d75357d52d94fe162a1e262e9ffd92e84764ece[m
+Author: Max Yoshida <maxyumay@gmail.com>
+Date:   Sat Nov 28 11:41:44 2020 -0700
+
+    Initial commit
+
+[33mcommit 4a02abf06accbf3366f53795134301e6ff6f251a[m
+Author: maxyumay <75178978+maxyumay@users.noreply.github.com>
+Date:   Sat Nov 28 11:18:50 2020 -0700
+
+    Initial commit
